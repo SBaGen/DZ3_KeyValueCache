@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="KeyValueCache.Core/KeyValueCache.Core.csproj" />
+  <Project Path="KeyValueCache.Server/KeyValueCache.Server.csproj" />
+  <Project Path="KeyValueCache.Tests/KeyValueCache.Tests.csproj" />
+</Solution>
