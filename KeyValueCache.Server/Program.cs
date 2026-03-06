@@ -35,12 +35,12 @@ class Program
         });
 
         // Даем серверу время на инициализацию
-        //await Task.Delay(500);
+        await Task.Delay(500);
 
         // Запускаем тестовый клиент
         //await TestClient.RunTestsAsync();
 
         // Ожидаем завершения работы сервера
-        //await serverTask;
+        await serverTask;
     }
 }

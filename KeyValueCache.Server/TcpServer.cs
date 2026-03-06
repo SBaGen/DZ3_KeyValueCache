@@ -127,8 +127,6 @@ public sealed class TcpServer : IDisposable
     /// </summary>
     private int ProcessBuffer(byte[] buffer, int totalBytes, Socket clientSocket)
     {
-       Console.WriteLine($"[DEBUG] Total bytes in buffer _ _ _ _ _ _ _: {totalBytes}");
-       Console.WriteLine($"[DEBUG] Buffer content: {Encoding.UTF8.GetString(buffer, 0, totalBytes)}");        
 
         int processedUpTo = 0;
     
